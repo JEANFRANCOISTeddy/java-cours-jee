@@ -29,7 +29,6 @@ public class Form extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
         String nom = request.getParameter( "txtNom" );
         String nb_heures = request.getParameter( "txtNbHeures" );
         if ( nom == null ) nom = "";
@@ -40,7 +39,7 @@ public class Form extends HttpServlet {
             out.println( "<!DOCTYPE html>" );
             out.println( "<html>" );
             out.println( "    <body>" );
-            out.println( "        <form method='POST' action='/Resultat'>" );
+            out.println( "        <form method='GET' action='Controlleur1'>" );
             out.println( "            <label for='txtNom'>Nom </label>" ); 
             out.println( "            <input id='txtNom' name='txtNom' type='text' value='" + nom + "' autofocus /><br/>" );
             out.println( "            <label for='txtNbHeures'>Nb heures </label>" ); 
@@ -52,8 +51,7 @@ public class Form extends HttpServlet {
             out.println( "    </body>" );
             out.println( "</html>" );
 
-        }
-        
+        }    
 	}
 
 	/**
