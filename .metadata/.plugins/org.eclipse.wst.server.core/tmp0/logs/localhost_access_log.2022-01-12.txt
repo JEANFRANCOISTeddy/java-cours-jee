@@ -67,3 +67,8 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:55:23 +0100] "GET /ProjetGRETA/Controlleur1?txtNom=Math&txtNbHeures=5&btnConnect=Cr%E9er+cette+mati%E8re HTTP/1.1" 200 12
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:55:32 +0100] "GET /ProjetGRETA/Form HTTP/1.1" 200 477
 0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:55:35 +0100] "GET /ProjetGRETA/Controlleur1?txtNom=fsdfds&txtNbHeures=6&btnConnect=Cr%E9er+cette+mati%E8re HTTP/1.1" 200 484
+127.0.0.1 - - [12/Jan/2022:18:58:34 +0100] "GET / HTTP/1.1" 404 681
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:58:35 +0100] "GET /ProjetGRETA/Controlleur1 HTTP/1.1" 500 1292
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:58:42 +0100] "GET /ProjetGRETA/Form HTTP/1.1" 200 477
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:58:50 +0100] "GET /ProjetGRETA/Controlleur1?txtNom=Math&txtNbHeures=7&btnConnect=Cr%E9er+cette+mati%E8re HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [12/Jan/2022:18:59:00 +0100] "GET /ProjetGRETA/Form HTTP/1.1" 200 477
